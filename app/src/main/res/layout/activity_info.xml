@@ -21,6 +21,7 @@
         app:layout_constraintVertical_bias="0.175" />
 
     <TextView
+        android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What is Creative Calculator?"
@@ -34,6 +35,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.239" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="294dp"
+        android:layout_height="222dp"
+        android:text="A creative calculator operates just like an ordinary calculator that performs arithmetic operations on numbers such as addition, subtraction, multiplication, and division. However, instead of mathematical calculations, our creative calculator is capable of creating variety of foods by combining two ingredients. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
     <Button
         android:id="@+id/backbtn"
         android:layout_width="wrap_content"
@@ -46,5 +62,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.884" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
